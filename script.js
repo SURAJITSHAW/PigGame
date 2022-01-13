@@ -99,7 +99,7 @@ document.querySelector('.btn--hold').addEventListener('click', function () {
  
   // Check if player won the game
  
-  if (scores[activePlayer] >= 10) {
+  if (scores[activePlayer] >= 100) {
     /* Declare the winner */
     document.querySelector('#name--' + activePlayer).textContent = 'winner!';
  
